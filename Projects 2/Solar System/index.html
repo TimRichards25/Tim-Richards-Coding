@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/Earth Icon.png" />
+    <script src="https://github.com/mrdoob/three.js/blob/r112/build/three.module.js"></script>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var script = document.createElement('script');
+        script.onload = function () {
+          var stats = new Stats();
+          document.body.appendChild(stats.dom);
+          requestAnimationFrame(function loop() {
+            stats.update();
+            requestAnimationFrame(loop);
+          });
+        };
+        script.src = 'https://mrdoob.github.io/stats.js/build/stats.min.js';
+        document.head.appendChild(script);
+      })();
+    </script>
+
+    <canvas id="bg"></canvas>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
