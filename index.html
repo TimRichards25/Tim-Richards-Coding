@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim Richards Coding</title>
+    <style>
+      * {
+        background: #101010;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Protest Guerrilla', sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Protest+Guerrilla&family=Rock+3D&family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/icon/SVG/Tim Richards Coding Icon v3.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- Nav Bar Section -->
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="/" id="navbar_logo"> <img id="navbar_logo-icon" src="img/icon/SVG/Tim Richards Coding Icon v3.svg" /> Tim Richards <br />Coding</a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" class="navbar_links"> Learn </a>
+          </li>
+          <!-- <li class="navbar_item">
+            <a href="/" class="navbar_links"> Link2 </a>
+          </li> -->
+          <li class="navbar_item">
+            <a href="https://github.com/TimRichards25/TimRichards25.github.io/discussions/2" class="navbar_links"> Feedback </a>
+          </li>
+          <li class="navbar_btn">
+            <a href="https://github.com/TimRichards25/TimRichards25.github.io" class="button"> Source </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Section -->
+    <div class="main">
+      <div class="main_container">
+        <div class="main_content">
+          <h1>TIM RICHARDS</h1>
+          <h2>CODING</h2>
+          <h3>All of my coding projects in one place.</h3>
+          <h4>
+            View and download all the source code for my projects at <a href="https://github.com/TimRichards25/TimRichards25.github.io">Github</a>.
+            Please star it, share it and give feedback <a href="https://github.com/TimRichards25/TimRichards25.github.io/discussions/2">here</a>.
+            Enjoy!
+          </h4>
+          <!-- <p>
+            <script type="text/javascript" src="//counter.websiteout.com/js/2/0/1/0"></script>
+            hits
+          </p> -->
+
+          <!-- <button class="main_btn"><a href="/">Button</a></button> -->
+        </div>
+        <div class="main_img--container">
+          <img src="img/Logos People.jpg" alt="pic" id="main_img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects">
+      <h1>Projects:</h1>
+      <div class="projects_container">
+        <div onClick="fractalTreeClicked()" class="projects_card" style="background-image: url('./img/Fractal Tree.png')">
+          <h2>Fractal Tree</h2>
+          <p>
+            This is a simple fractal tree in which each branch divides into four other branches. The length of the branch decreases down to the
+            minimun length. Move your cursor across the page to change the angle of the branchs.
+          </p>
+        </div>
+        <div onClick="particlesClicked()" class="projects_card" style="background-image: url('./img/Particles.png')">
+          <h2>Particles</h2>
+          <p>
+            This is a simple particle system where particles appear in the center and move outwards in a random direction as they fade away. Move your
+            mouse to change the x and y speeds of the particles.
+          </p>
+        </div>
+        <div onClick="additiveSineWavesClicked()" class="projects_card" style="background-image: url('./img/Additive Waves.png')">
+          <h2>Additive Waves</h2>
+          <p>This is a wave made from 25 sine waves added together so that it appears more random.</p>
+        </div>
+        <div onClick="fireworksClicked()" class="projects_card" style="background-image: url('./img/Fireworks.png')">
+          <h2>Fireworks</h2>
+          <p>This is a simulation of fireworks. Particles are generated at the bottom and go up where they explode into many other particles.</p>
+        </div>
+        <div onClick="fractalTree2Clicked()" class="projects_card" style="background-image: url('./img/Fractal Tree OOP.png')">
+          <h2>Fractal Tree 2</h2>
+          <p>
+            This is a fractal tree that starts with one branch. Click to make more branches out from the main one. THis fractal tree is made a bit
+            randomly so that it is more natural.
+          </p>
+        </div>
+        <div onClick="flowFieldClicked()" class="projects_card" style="background-image: url('./img/Flow Field.png')">
+          <h2>Flow Field</h2>
+          <p>This is a flowfield made by many particles that move together and draw lines. Move your mouse to change the colour of the particles.</p>
+        </div>
+        <div onClick="raycastingClicked()" class="projects_card" style="background-image: url('./img/Raycasting.png')">
+          <h2>Light</h2>
+          <p>
+            This is a simulation of light and shadows. Many rays come out of the light and stop when they hit a wall. The light will follow you mouse.
+          </p>
+        </div>
+        <div onClick="superShapesClicked()" class="projects_card" style="background-image: url('./img/Supershapes.png')">
+          <h2>Star</h2>
+          <p>This is a star made with math to make curves. Move your mouse across the screen to change the number of points.</p>
+        </div>
+        <div onClick="flockingSimulationClicked()" class="projects_card" style="background-image: url('./img/Flocking Simulation.png')">
+          <h2>Flocking Simulation</h2>
+          <p>
+            This is a basic flocking simulation which is a system of particles that move in a similar way to a flock of birds, a school of fish, or a
+            swarm of insects in nature. The first flocking simulation was made in 1987 by Craig Reynolds. You can change how they move with the
+            sliders at the bottom.
+          </p>
+        </div>
+        <div onClick="pendulumClicked()" class="projects_card" style="background-image: url('./img/Pendulum.png')">
+          <h2>Pendulum</h2>
+          <p>This is a simulation of a pendulum which swings from right to left.</p>
+        </div>
+        <div onClick="fancyPendulumClicked()" class="projects_card" style="background-image: url('./img/Pendulum OOP.png')">
+          <h2>Pendulum Effects</h2>
+          <p>
+            This is a cool effect made by many pendulums of different lengths all swinging at the same speed. The effect is similar to a sine wave.
+          </p>
+        </div>
+        <div onClick="mazeGeneratorClicked()" class="projects_card" style="background-image: url('./img/Maze Generator.png')">
+          <h2>Maze Generator</h2>
+          <p>This program generates a maze. Watch the maze appear and anjoy solving it!</p>
+        </div>
+        <div onClick="springClicked()" class="projects_card" style="background-image: url('./img/Spring.png')">
+          <h2>Elastic</h2>
+          <p>This is a simple simulation of an elastic or spring. Use your mouse to pull the elastic</p>
+        </div>
+        <div onClick="stringClicked()" class="projects_card" style="background-image: url('./img/String.png')">
+          <h2>Elastic 2</h2>
+          <p>
+            This is a simulation of a piece of elastic or string which streches. It is made up of many springs all connected at the ends. Use your
+            mouse to pull it.
+          </p>
+        </div>
+
+        <div onClick="solarSystemClicked()" class="projects_card" style="background-image: url('./img/Solar System.png')">
+          <h2>Solar System</h2>
+          <p>
+            This is a model of our solar system. This project is not finished yet so not all of the planets are there yet. Size and distance are so
+            scale except for the Sun and Jupiter and all the speed is to scale. You can move around in the solar system with your mouse.
+          </p>
+        </div>
+        <div onClick="analogueClockClicked()" class="projects_card" style="background-image: url('./img/Analogue Clock.png')">
+          <h2>Analogue Clock</h2>
+          <p>This is an analogue clock that displays the time of your computer.</p>
+        </div>
+        <div onClick="barclockClicked()" class="projects_card" style="background-image: url('./img/Bar Clock.png')">
+          <h2>Bar Clock</h2>
+          <p>This is a bar clock that displays the time of your computer.</p>
+        </div>
+        <div onClick="snowClicked()" class="projects_card" style="background-image: url('./img/Snow.png')">
+          <h2>Snow</h2>
+          <p>This is a simulation of snow where snow particles generate at the top and fall acording to their size.</p>
+        </div>
+        <div onClick="sineWaveClicked()" class="projects_card" style="background-image: url('./img/Sine Wave.png')">
+          <h2>Sine Wave</h2>
+          <p>This is a simple sine wave.</p>
+        </div>
+        <div onClick="perlinNoiseGraphClicked()" class="projects_card" style="background-image: url('./img/Perlin Noise Graph.png')">
+          <h2>Perlin Noise Graph</h2>
+          <p>
+            This is a graph of perlin noise. Perlin noise in similar to random but each number is similar to the one before and after it. This is
+            often used for terrain generation.
+          </p>
+        </div>
+        <div onClick="sineElasticClicked()" class="projects_card" style="background-image: url('./img/Sine Spring.png')">
+          <h2>Sine Elastic</h2>
+          <p>This is a circle moved by sine on both the x-axis and the y-axis so that is appears like elastic.</p>
+        </div>
+        <div onClick="gameOfLifeClicked()" class="projects_card" style="background-image: url('./img/Game of Life.png')">
+          <h2>Game of Life</h2>
+          <p>
+            This is the most simple game of life. Each cell can be either dead (black) or alive (red). Their state will change based on the cells
+            around them. The first game of life was invented my John Conway in 1970. Other versions of the game of life have more than two states.
+          </p>
+        </div>
+        <!-- <div onClick="asteroidsClicked()" class="projects_card" style="background-image: url('./img/Game of Life.png')">
+          <h2>Asteroids</h2>
+          <p>
+            This is the most simple game of life. Each cell can be either dead (black) or alive (red). Their state will change based on the cells
+            around them. The first game of life was invented my John Conway in 1970. Other versions of the game of life have more than two states.
+          </p>
+        </div> -->
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
