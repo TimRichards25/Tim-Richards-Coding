@@ -5,6 +5,6 @@ Thank you for checking out my website!
 If you have any comments, feedback, questions, or suggestions, please let me know [here](https://github.com/TimRichards25/TimRichards25.github.io/discussions/1). I hope you enjoyed it! 😁😁 
 
 ------------------------------------------------------------------------------------------ 
-Preview: 
+__Preview:__ 
 
 ![Image](https://www.timrichardscoding.com/img/preview.png)
