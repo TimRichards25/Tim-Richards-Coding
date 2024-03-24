@@ -90,6 +90,52 @@
   transition: 0.2s ease-in;
   cursor: pointer;
 }
+
+/* .views_blocker {
+  background-color: #f00;
+  background: #f00;
+  width: 20rem;
+  height: 5rem;
+} */
+
+.views {
+  display: flex;
+  color: rgb(122, 122, 122);
+  font-size: 1.5rem;
+  font-weight: 100;
+  align-items: center;
+  scale: 0.01;
+  position: relative;
+  bottom: 1rem;
+  cursor: default;
+}
+
+.views_hits {
+  width: 50%;
+}
+
+.views_unique {
+  width: 50%;
+}
+/* 
+.views_hits-name {
+  margin-right: 1rem;
+}
+
+.views_unique-name {
+  margin-right: 1rem;
+} */
+
+.views:hover {
+  transform: translate(0, -100rem) scale(100);
+  transition: 0.05s ease;
+  /* transform: scale(100, 100);
+  transition: 0.05s ease; */
+}
+/* .views_hits-name { */
+/* padding-bottom: 1rem; */
+/* font-size: 1; */
+/* } */
 /* 
 @media screen and (max-width: 1573px) {
   .projects {
