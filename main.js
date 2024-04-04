@@ -75,3 +75,6 @@ function gameOfLifeClicked() {
 function asteroidsClicked() {
   window.location.href = './Projects 2/Asteroids/index.html';
 }
+function asciiMirrorClicked() {
+  window.location.href = './Projects 2/ASCII Mirror/index.html';
+}
