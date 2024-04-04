@@ -6,6 +6,15 @@ menu.addEventListener('click', function () {
   menuLinks.classList.toggle('active');
 });
 
+const divs = Array.from(document.querySelectorAll('.projects_card'));
+const parent = document.querySelector('.projects_container');
+
+divs.sort(() => Math.random() - 0.5);
+
+divs.forEach((div) => {
+  parent.appendChild(div);
+});
+
 function fractalTreeClicked() {
   window.location.href = './Projects 1/Fractal Tree/index.html';
 }
